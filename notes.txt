@@ -24,5 +24,45 @@ script:
   - bunlde exec rspec spec
 
 
+Create a Gemfile on the root of your project folder
+- touch Gemfile
+- add the following in your gemfil
+gem "codeclimate-test-reporter", require: nil
+
+- You will also need to add the following in your spec_helper file
+
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
+
 3. go to travis website (log in using github sign in)
 https://travis-ci.org/profile/RizAli
+
+4.  find your repo and flick the respository to switch on
+
+
+5. now login to code climate webite with your github account
+
+- click on add a repo
+- click on settings
+- on the left hand side click on Test Coverage
+- follow Ruby Instructions
+
+1. Add the codeclimate-test-reporter gem to your Gemfile:
+
+  gem "codeclimate-test-reporter", group: :test, require: nil
+
+2. Start the test reporter on the very first line of spec_helper.rb or test_helper.rb:
+
+  require "codeclimate-test-reporter"
+  CodeClimate::TestReporter.start
+
+3. When you run your tests on CI, set the CODECLIMATE_REPO_TOKEN environment variable:
+
+go back to Travis settings
+click on Evironment variables
+click on add
+
+click on the build unknown button on the top and change the image url to markdown
+copy the url and pasat it in your readme file.
+
+

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RizAli/Fizzbuzz_p.svg)](https://travis-ci.org/RizAli/Fizzbuzz_p)
+
 # Fizzbuzz
 This excercise is ideal for discovering TDD
 
