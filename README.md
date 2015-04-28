@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/RizAli/Fizzbuzz_p.svg)](https://travis-ci.org/RizAli/Fizzbuzz_p)
+[![Test Coverage](https://codeclimate.com/github/RizAli/yelp-Challenge/badges/coverage.svg)](https://codeclimate.com/github/RizAli/yelp-Challenge)
+[![Code Climate](https://codeclimate.com/github/RizAli/yelp-Challenge/badges/gpa.svg)](https://codeclimate.com/github/RizAli/yelp-Challenge)
 
 # Fizzbuzz
 This excercise is ideal for discovering TDD
