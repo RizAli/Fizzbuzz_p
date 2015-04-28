@@ -1,0 +1,7 @@
+gem install rspec
+rspec --h
+rspec -init
+
+create spec file
+-----------------
+fizzbuzz_spec.rb
