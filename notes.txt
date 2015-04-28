@@ -13,5 +13,16 @@ touch ./lib/fizzbuzz.rb
 write first test.
 
 Setting up travis before writing
+--------------------------------
+1. Create .travis.yml file on the root of the project folder.
+2. added content in the travis file
+
+language: ruby
+rvm:
+  - 2.2.0
+script:
+  - bunlde exec rspec spec
 
 
+3. go to travis website (log in using github sign in)
+https://travis-ci.org/profile/RizAli
