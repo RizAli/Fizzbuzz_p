@@ -5,3 +5,13 @@ rspec -init
 create spec file
 -----------------
 fizzbuzz_spec.rb
+
+To keep our production files and test files separate, I created  a folder called lib.
+now in this file I will be defining all the methods.
+
+touch ./lib/fizzbuzz.rb
+write first test.
+
+Setting up travis before writing
+
+

@@ -1,6 +1,9 @@
 # Fizzbuzz
 This excercise is ideal for discovering TDD
 
+Technologies
+RSpec - RSpec is one of the most used Behaviour Driven Development tools in the ruby community.
+
 Fizzbuzz is a simple coding challenge, often described as a code kata. The objective of Fizzbuzz is to create a program with the following specification:
 
 The program can be passed a number.
