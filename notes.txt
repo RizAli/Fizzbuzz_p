@@ -57,10 +57,15 @@ https://travis-ci.org/profile/RizAli
   CodeClimate::TestReporter.start
 
 3. When you run your tests on CI, set the CODECLIMATE_REPO_TOKEN environment variable:
+ CODECLIMATE_REPO_TOKEN=71f484b278792c73e7f6edca53dabad7c1da29835b51743c1e7e1dbb4148b702 bundle exec rake
 
-go back to Travis settings
+
+4. go back to Travis settings
 click on Evironment variables
 click on add
+
+from step 3 copy the env variable name "CODECLIMATE_REPO_TOKEN"
+and paste : 71f484b278792c73e7f6edca53dabad7c1da29835b51743c1e7e1dbb4148b702
 
 click on the build unknown button on the top and change the image url to markdown
 copy the url and paste it in your readme file.
