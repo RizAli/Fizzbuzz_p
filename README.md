@@ -3,10 +3,13 @@
 [![Code Climate](https://codeclimate.com/github/RizAli/yelp-Challenge/badges/gpa.svg)](https://codeclimate.com/github/RizAli/yelp-Challenge)
 
 # Fizzbuzz
-This excercise is ideal for discovering TDD
+Ideal excercise for discovering TDD
 
 Technologies
-RSpec - RSpec is one of the most used Behaviour Driven Development tools in the ruby community.
+RSpec
+- RSpec is one of the most used Behaviour Driven Development tools in the ruby community.
+
+-  Language - Ruby
 
 Fizzbuzz is a simple coding challenge, often described as a code kata. The objective of Fizzbuzz is to create a program with the following specification:
 
