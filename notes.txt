@@ -63,6 +63,6 @@ click on Evironment variables
 click on add
 
 click on the build unknown button on the top and change the image url to markdown
-copy the url and pasat it in your readme file.
+copy the url and paste it in your readme file.
 
 

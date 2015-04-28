@@ -1,2 +1,7 @@
 source 'https://rubygems.org'
-gem "codeclimate-test-reporter", require: nil
+
+group :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'rspec-collection_matchers'
+  gem "codeclimate-test-reporter", require: nil
